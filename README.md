@@ -12,7 +12,7 @@ The included code calculates:
 
 The live site can be found at the below URL:
 
-
+https://dombrown95.github.io/Console-Finances/
 
 An image of the live site and console results can be seen below: 
 
@@ -23,15 +23,13 @@ An image of the live site and console results can be seen below:
 
 The provided code is not specific to the included dataset and can be used to calculate further results from different datasets. 
 
-If users would like to use the code for their own dataset, it should follow a similar format of 'Date' and 'Profit/Losses' (e.g. 'Dec-2012', 359333). The second field should always be in the form of a number, as concatenation is used to append the results.
+If users would like to use the code for their own dataset, it should follow a similar format of 'Date' and 'Profit/Losses' (e.g. 'Dec-2012', 359333). The first field should be a string and the second field should always be in the form of a number, as concatenation is used to append the results.
 
 # Issues/Limitations
 
 I initially struggled to identify the correct formulas to calculate the required results, but researching via StackOverflow/Google and separating the process into sections by commenting on my code helped.
 
 Although my code seemed to work intially and the majorty of the values were identical to the reults provided, I did notice that one of the values (Average Change) was quite different. I eventually managed to resolve this with help from a class mate (credited in the below 'Resources' section).
-
-
 
 # Resources used -
 
