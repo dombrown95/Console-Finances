@@ -1,3 +1,5 @@
+// Dataset
+
 var finances = [
   ['Jan-2010', 867884],
   ['Feb-2010', 984655],
@@ -93,7 +95,7 @@ var totalMonths = 0;
 var netTotal = 0;
 var greatestIncrease = {date: '', amount: 0};
 var greatestDecrease = {date: '', amount: 0};
-var previousProfitLoss = null;
+var previousProfitLoss = 0;
 var totalChange = 0;
 
 // Creating for loop to loop through dataset
@@ -122,7 +124,7 @@ for (var entry of finances) {
   previousProfitLoss = profitLoss;
 }
 
-// Calculating the average change using formula from ReadMe
+// Calculating the average change using provided formula from ReadMe
 var averageChange = totalChange / (totalMonths - 1);
 
 // Logging results to the console
